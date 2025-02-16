@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    flex-wrap: nowrap;
+    font-family: Tahoma;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.header {
+    background-color: rgb(44, 44, 44);
+    padding: 22px 0px;
+}
+.header-container {
+    max-width: 1540px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+.logo {
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
